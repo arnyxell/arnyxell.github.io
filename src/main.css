@@ -10,7 +10,6 @@ body {
     color: white;
     padding: 0 30px;
     background-color: rgb(23, 12, 31);
-    /* background-color: rgb(53, 27, 71); */
 }
 
 ul, ol {
@@ -28,28 +27,14 @@ a {
     margin: 200px auto;
 }
 
-.window__header, .window__content-1, .window__content-2 {
+.window__content-1, .window__content-2 {
     background-color: #0000003A;
 }
 
-/* .window__header, .window__content-1, .window__content-2 {padding: 5px 15px} */
-.window__header, .window__content-header, .window__content-main {padding: 5px 15px}
+.window__content-header, .window__content-main {padding: 5px 15px}
 .window__header {
     border-radius: 15px 15px 0 0;
 }
-.window__header-buttons-list {
-    display: flex;
-    gap: 5px;
-}
-.red, .yellow, .green {
-    width: 15px;
-    height: 15px;
-    border-radius: 100%;
-}
-.red {background-color: #FE5F57}
-.yellow {background-color: #FDBC2C}
-.green {background-color: #29C941}
-
 
 .window__content {
     display: flex;
@@ -66,12 +51,6 @@ a {
 }
 .window__content-1, .window__content-2 {
     width: 50%;
-}
-.window__content-1 {
-    border-radius: 0 0 0 8px;
-}
-.window__content-2 {
-    border-radius: 0 0 8px 0;
 }
 
 .window__content-main-title {
@@ -101,7 +80,6 @@ a {
     }
     .window__content-2 {
         margin-top: 5px;
-        border-radius: 0 0 8px 8px;
     }
 
     .window__content-main {
